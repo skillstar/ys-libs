@@ -12,6 +12,8 @@ importers:
         specifier: ^8.1.9
         version: 8.1.9(encoding@0.1.13)
 
+  packages/ys-cli: {}
+
   packages/ys-hooks:
     dependencies:
       '@wildys1/ui':
