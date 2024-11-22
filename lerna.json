@@ -8,6 +8,10 @@
     "publish": {
       "conventionalCommits": true,
       "message": "[skip ci] chore: release"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "changelog": false
     }
   }
 }
