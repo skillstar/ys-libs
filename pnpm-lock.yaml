@@ -14,7 +14,11 @@ importers:
 
   packages/ys-cli: {}
 
-  packages/ys-hooks: {}
+  packages/ys-hooks:
+    dependencies:
+      '@wildys1/ui':
+        specifier: workspace:^
+        version: link:../ys-ui
 
   packages/ys-ui: {}
 

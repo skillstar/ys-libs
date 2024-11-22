@@ -1,6 +1,9 @@
 {
   "name": "@wildys1/hooks",
-  "version": "1.6.0",
+  "version": "1.5.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +12,8 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "gitHead": "73f87198317ca16b4d187e1aa4c1fdebd366c958"
+  "gitHead": "73f87198317ca16b4d187e1aa4c1fdebd366c958",
+  "dependencies": {
+    "@wildys1/ui": "workspace:^"
+  }
 }
