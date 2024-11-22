@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/skillstar/ys-libs/compare/@wildys1/cli@1.1.0...@wildys1/cli@1.2.0) (2024-11-22)
+
+
+### Bug Fixes
+
+* ys-ui ([37f5f03](https://github.com/skillstar/ys-libs/commit/37f5f0367162072497e30794927d2152332b29c2))
+
+
+### Features
+
+* 修正1 ([7126719](https://github.com/skillstar/ys-libs/commit/71267192341965e399741459c1b0e2b709a7f090))
+
+
+
+
+
 ## [1.1.1](https://github.com/skillstar/ys-libs/compare/@wildys1/cli@1.1.0...@wildys1/cli@1.1.1) (2024-11-22)
 
 

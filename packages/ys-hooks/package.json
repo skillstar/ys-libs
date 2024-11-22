@@ -1,6 +1,6 @@
 {
   "name": "@wildys1/hooks",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@wildys1/ui": "^1.1.0"
+    "@wildys1/ui": "^1.2.0"
   },
   "gitHead": "73f87198317ca16b4d187e1aa4c1fdebd366c958"
 }
