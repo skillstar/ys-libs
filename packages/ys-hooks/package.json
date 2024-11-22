@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "gitHead": "73f87198317ca16b4d187e1aa4c1fdebd366c958",
+  "gitHead": "f9d0a0d5f1462532173ba6d7b0247d2d01e66d6f",
   "dependencies": {
-    "@wildys1/ui": "workspace:^"
+    "@wildys1/ui": "^1.7.1"
   }
 }
