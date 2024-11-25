@@ -4,7 +4,9 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "publish": "lerna publish"
+    "publish": "lerna publish",
+    "storybook": "cd apps/yd-storybook && npx storybook dev -p 6006",
+    "build-storybook": "cd apps/yd-storybook && npx storybook build"
   },
   "keywords": [],
   "author": "",

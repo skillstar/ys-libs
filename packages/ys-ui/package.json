@@ -12,5 +12,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "gitHead": "f9d0a0d5f1462532173ba6d7b0247d2d01e66d6f"
+  "gitHead": "f9d0a0d5f1462532173ba6d7b0247d2d01e66d6f",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12"
+  }
 }
