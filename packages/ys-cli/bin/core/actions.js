@@ -23,7 +23,15 @@ async function tyAction(options) {
 
   try {
     // 只在没有提供 URL 和 name 的情况下才调用 promptUser
-    const config = options.url && options.name ? options : await promptUser(); // 判断是否有 url 和 name
+    const config =
+      options.url && options.name
+        ? { ...options, path: options.path || currentPath } // 如果没有指定 path，则使用当前目录
+        : await promptUser();
+
+    // 如果路径为空，设置为默认路径
+    if (!config.path) {
+      config.path = currentPath;
+    }
 
     const { lines } = await generateTypes(config.url, config.name);
 
