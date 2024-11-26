@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import TextDisplay, { TextDisplayProps } from '@ys-ui/components/TextDisplay';  
 
 const meta: Meta<TextDisplayProps> = {  
-  title: 'Example/TextDisplay',  
+  title: 'Components/TextDisplay',  
   component: TextDisplay,  
   argTypes: {  
     color: { control: 'color' },  
